@@ -1,0 +1,16 @@
+ body {
+  padding: 2.5rem;
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} 
+
+a {
+  color: #00B7FF;
+}
+
+.list-group-all-tweet{
+  max-height: 30rem;
+  margin-bottom: 10px;
+  overflow:scroll;
+  -webkit-overflow-scrolling: touch;
+}

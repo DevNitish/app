@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:description" ng-attr-content="Product Review, Quality Tech Video, Hacking" />
+
+    <meta property="og:image" content="include/img/290x230.jpg" />
+    <link rel="stylesheet" href="include/stylesheets/style.css">
+    <link rel="stylesheet" href="include/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="include/stylesheets/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        /* #amazon {
+            height: auto;
+            width: auto;
+
+        }   
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .button {
+            background-color: #4CAF50;
+         
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 300px;
+            margin-left: 20px;
+            background-color: rgb(93, 244, 255);
+        }
+
+        #whatsapp {
+            height: 30px;
+            width: 30px;
+
+        }
+
+        .sharing {
+            background: #F84A29;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            width: 100%;
+            display: block;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="" ng-app="nickwish" ng-controller="myWishCtrl">
+        <div class="row">
+            <!-- change: image URL link -->
+            <a href="https://www.youtube.com/user/NicknetVideos" class="text-center">
+                <img class="center bg" src="include/img/300x600.jpg" alt="Nicknet_Videos">
+            </a>
+        </div>
+        <br>
+
+        <a href="whatsapp://send?text=Proof%20That%20European%20Festival%20Fashion%20Is%20Better%20Than%20American%20Fashion%0A%0Ahttp%3A%2F%2Fwww.buzzfeed.com%2Fazafar%2Fproof-that-european-festival-fashion-is-better-than-american%3Fbfwa"
+            data-action="share/whatsapp/share" data-text="Take a look at this awesome website:" data-href="" class="wa_btn wa_btn_s">Share3</a>
+
+        <div class="container row ">
+            <div class="col-md-10 col-md-offset-1">
+                <form>
+                    <div class="form-group ">
+                        <input type="text" ng-model="name" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+
+                    <a class="btn btn-warning btn-block" href="whatsapp://send?text=*Amazon Great Indian Festival* %0A %0A *BIGGEST SAVING TODAY* %0A %0A *1. Mobile -* Up to 40%25 off. %0A%0A *2. Instant Discount %26 Cashback -* Upto Rs.8,000. %0A%0A *3.Kitchen %26 dining -* Up to 75%25 off. %0A%0A *4. Computer accessories -* Up to 70%25 off. %0A%0A *Order Now -* http://bit.ly/amazonhome7 %0A%0A *Offer Valid For Limited Time only.* %0A%0A *( Free Delivery And Cash On Delivery Also ).* %0A"
+                        data-action="share/whatsapp/share" data-text="Take a look at this awesome website:" data-href=""
+                        class="wa_btn wa_btn_s"> Share On Whatsapp <span class="pull-right deliv">
+                            <img class="img-responsive" src="include/img/whatsapp.png" width="30px;">
+                        </span></a>
+                        <button class="btn " ng-click="shareWithFriend()">OPen</button>
+                </form>
+            </div>
+        </div>
+        <!-- <img id="whatsapp" src="include/img/whatsapp.png" alt="whatsapp"> Share via Whatsapp</a> -->
+    </div>
+
+    <!-- util JS -->
+    <script src="include/javascripts/angular.js"></script>
+    <script src="include/javascripts/angular-animate.min.js"></script>
+    <script src="include/javascripts/angular-touch.min.js"></script>
+    <script src="include/javascripts/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="include/javascripts/jquery.min.js"></script>
+    <script src="include/javascripts/bootstrap.min.js"></script>
+    <script src="include/javascripts/moment.min.js"></script>
+    <!-- contom js -->
+    <script src="controller/ctrl.js"></script>
+</body>
+
+</html>
